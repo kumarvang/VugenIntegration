@@ -1,0 +1,170 @@
+[API Trapper      (7d5c:1b6c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 480:6ed4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (51fc:4250)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (51fc:12f0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (51fc:12f0)] Load Network Traffic Analyzers:
+[Network Analyzer (51fc:12f0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (51fc:12f0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (51fc:12f0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (51fc:12f0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (51fc:12f0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (51fc:12f0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (51fc:12f0)]     Analyzer Module: local_server (value=)
+[Network Analyzer (51fc:12f0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (51fc:3f2c)] Address lookup for INBENVANGKUMAR = 10.164.56.108
+[Network Analyzer (51fc:12f0)] Address lookup for INBENVANGKUMAR = 10.164.56.108
+[Network Analyzer (51fc:12f0)] Request Connection: Remote Server @ 127.0.0.1:45018   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (239c:2da0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Web Request      (51fc:3f2c)] "GET /"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  1) Client -> Server @ : 226 bytes (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  1) Server -> Client : 87 bytes  (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  1) Server -> Client : 16038 bytes  (Service=HTTP)
+[Network Analyzer (51fc:12f0)] Address lookup for INBENVANGKUMAR = 10.164.56.108
+[Network Analyzer (51fc:3f2c)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (51fc:12f0)] Request Connection: Remote Server @ 127.0.0.1:45018   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (51fc:12f0)] Address lookup for INBENVANGKUMAR = 10.164.56.108
+[API Trapper      (7c8c:7e40)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Web Request      (51fc:3f2c)] "GET /"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  2) Client -> Server @ : 259 bytes (Service=HTTP)
+[Network Analyzer (51fc:12f0)] Request Connection: Remote Server @ 10.169.4.150:80   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (51fc:3f2c)]   (Sid:  2) Server -> Client : 87 bytes  (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  2) Server -> Client : 16038 bytes  (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  2) Connection Terminated (by Server)
+[Web Request      (51fc:3f2c)] "CONNECT clientservices.googleapis.com:443"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  3) Client -> Server @ : 250 bytes (Service=HTTP)
+[Network Analyzer (51fc:12f0)] Address lookup for INBENVANGKUMAR = 10.164.56.108
+[Network Analyzer (51fc:3f2c)]   (Sid:  3) Server -> Client : 39 bytes 
+[Network Analyzer (51fc:12f0)] Request Connection: Remote Server @ 10.169.4.150:80   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (51fc:3f2c)] "CONNECT update.googleapis.com:443"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  4) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (51fc:12f0)] Address lookup for INBENVANGKUMAR = 10.164.56.108
+[Network Analyzer (51fc:12f0)] Request Connection: Remote Server @ 10.169.4.150:80   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (51fc:12f0)] Address lookup for INBENVANGKUMAR = 10.164.56.108
+[Network Analyzer (51fc:3f2c)]   (Sid:  4) Server -> Client : 39 bytes 
+[Web Request      (51fc:3f2c)] "CONNECT accounts.google.com:443"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  5) Client -> Server @ : 230 bytes (Service=HTTP)
+[Network Analyzer (51fc:12f0)] Request Connection: Remote Server @ 10.169.4.150:80   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (51fc:3f2c)] "CONNECT www.google.com:443"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  6) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (51fc:12f0)] Address lookup for INBENVANGKUMAR = 10.164.56.108
+[Network Analyzer (51fc: 914)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (51fc:12f0)] Request Connection: Remote Server @ 10.169.4.150:80   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (51fc: 914)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (51fc:3f2c)]   (Sid:  6) Server -> Client : 39 bytes 
+[Web Request      (51fc:3f2c)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=114"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  3) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Web Request      (51fc:3f2c)] "CONNECT petstore.octoperf.com:443"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (51fc:372c)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (51fc:3f2c)]   (Sid:  5) Server -> Client : 39 bytes 
+[Network Analyzer (51fc:372c)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Server -> Client : 39 bytes 
+[Network Analyzer (51fc:3f2c)]   (Sid:  4) Client -> Server @ : 775 bytes (SSL)(Service=HTTP)
+[Web Request      (51fc:3f2c)] "POST /service/update2/json?cup2key=13:Jjmg7RkFEdEjlMIIrXeE_Q4_Pd-IpnlNT_23vr-9VN8&cup2hreq=df466ecda6befa3a149acc51774cb559da9c593a4dc1d113ee4d9a23a9793503"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  4) Client -> Server @ : 1755 bytes (SSL)(Service=HTTP)
+[Network Analyzer (51fc:4dc0)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (51fc:4dc0)] SSLAccept(ssl_id = 2455666283872 = 0000023BC11DD560) Failed, ctx = 0000023BC122B4A0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (51fc:4dc0)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (51fc:2b88)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (51fc:3f2c)]   (Sid:  3) Server -> Client : 149 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:2b88)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (51fc:3f2c)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  5) Client -> Server @ : 492 bytes (SSL)(Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  4) Server -> Client : 1088 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  4) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  4) Server -> Client : 292 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  4) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (51fc:3f2c)]   (Sid:  5) Server -> Client : 1531 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  5) Server -> Client : 39 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  5) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:4450)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (51fc:4450)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (51fc:3f2c)] "GET /"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Client -> Server @ : 753 bytes (SSL)(Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Server -> Client : 172 bytes (SSL) (Service=HTTP)
+[Web Request      (51fc:3f2c)] "GET /favicon.ico"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Client -> Server @ : 598 bytes (SSL)(Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Server -> Client : 986 bytes (SSL) (Service=HTTP)
+[Web Request      (51fc:3f2c)] "GET /actions/Catalog.action"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Client -> Server @ : 734 bytes (SSL)(Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Server -> Client : 1235 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:12f0)] Address lookup for INBENVANGKUMAR = 10.164.56.108
+[Network Analyzer (51fc:12f0)] Request Connection: Remote Server @ 10.169.4.150:80   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (51fc:3f2c)] "CONNECT optimizationguide-pa.googleapis.com:443"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  8) Client -> Server @ : 262 bytes (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  8) Server -> Client : 39 bytes 
+[Network Analyzer (51fc:2410)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (51fc:2410)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (51fc:3f2c)]   (Sid:  8) Client -> Server @ : 598 bytes (SSL)(Service=HTTP)
+[Web Request      (51fc:3f2c)] "POST /v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  8) Client -> Server @ : 810 bytes (SSL)(Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  8) Server -> Client : 344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  8) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  8) Server -> Client : 1386 bytes (SSL) (Service=HTTP)
+[Web Request      (51fc:3f2c)] "GET /actions/Account.action;jsessionid=5872394FFF8316228D2F649C7584F798?signonForm="   
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Client -> Server @ : 865 bytes (SSL)(Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Server -> Client : 3847 bytes (SSL) (Service=HTTP)
+[Web Request      (51fc:3f2c)] "POST /actions/Account.action"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Client -> Server @ : 1234 bytes (SSL)(Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Server -> Client : 218 bytes (SSL) (Service=HTTP)
+[Web Request      (51fc:3f2c)] "GET /actions/Catalog.action"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Client -> Server @ : 891 bytes (SSL)(Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Server -> Client : 771 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:12f0)] Address lookup for INBENVANGKUMAR = 10.164.56.108
+[Network Analyzer (51fc:12f0)] Request Connection: Remote Server @ 10.169.4.150:80   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (51fc:3f2c)] "CONNECT update.googleapis.com:443"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  9) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  9) Server -> Client : 39 bytes 
+[Network Analyzer (51fc:27e4)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (51fc:27e4)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (51fc:3f2c)] "POST /service/update2/json?cup2key=13:OhD0aCz-u8nQ5VgQmbcRDIIuISXqT8SMtE_KQOaT5kc&cup2hreq=0fa8079b716af55e8fe1e2bf095b0a1d95681fc28a8ceebd6cd9509290cafe49"
+[Network Analyzer (51fc:3f2c)]   (Sid:  9) Client -> Server @ : 1300 bytes (SSL)(Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  9) Client -> Server @ : 8521 bytes (SSL)(Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  9) Server -> Client : 1092 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  9) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  9) Server -> Client : 1326 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  9) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:12f0)] Address lookup for INBENVANGKUMAR = 10.164.56.108
+[Network Analyzer (51fc:12f0)] Request Connection: Remote Server @ 10.169.4.150:80   (Service=)  (Sid= 10)  PROXIED!
+[User action                 ] StartTransactionEvent Click_Fish [Web Request      (51fc:3f2c)] "CONNECT www.google.com:443"   
+[Network Analyzer (51fc:3f2c)]   (Sid: 10) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid: 10) Server -> Client : 39 bytes 
+[Network Analyzer (51fc:58e8)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (51fc:58e8)] SSLAccept(ssl_id = 2455666223328 = 0000023BC11CE8E0) Failed, ctx = 0000023BC122B4A0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (51fc:58e8)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (51fc:3f2c)]   (Sid: 10) Connection Terminated (by Client)
+[Web Request      (51fc:3f2c)] "GET /actions/Catalog.action?viewCategory=&categoryId=FISH"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Client -> Server @ : 839 bytes (SSL)(Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Server -> Client : 3878 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Click_Fish [Network Analyzer (51fc:3f2c)]   (Sid:  9) Client -> Server @ : 377 bytes (SSL)(Service=HTTP)
+[Web Request      (51fc:3f2c)] "POST /service/update2/json"   
+[Network Analyzer (51fc:3f2c)]   (Sid:  9) Client -> Server @ : 1375 bytes (SSL)(Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  9) Server -> Client : 644 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  9) Server -> Client : 4 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  9) Server -> Client : 193 bytes (SSL) (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (51fc:3f2c)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (51fc:3f2c)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (51fc:3f2c)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (51fc:3f2c)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (51fc:3f2c)]   (Sid:  9) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent Click_Product_ID [Network Analyzer (51fc:12f0)] Address lookup for INBENVANGKUMAR = 10.164.56.108
+[Network Analyzer (51fc:12f0)] Request Connection: Remote Server @ 10.169.4.150:80   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (51fc:3f2c)] "CONNECT petstore.octoperf.com:443"   
+[Network Analyzer (51fc:3f2c)]   (Sid: 11) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid: 11) Server -> Client : 39 bytes 
+[Network Analyzer (51fc:35bc)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (51fc:35bc)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (51fc:3f2c)] "GET /actions/Catalog.action?viewProduct=&productId=FI-SW-01"   
+[Network Analyzer (51fc:3f2c)]   (Sid: 11) Client -> Server @ : 871 bytes (SSL)(Service=HTTP)
+[Network Analyzer (51fc:3f2c)]   (Sid: 11) Server -> Client : 4056 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Click_Product_ID 
